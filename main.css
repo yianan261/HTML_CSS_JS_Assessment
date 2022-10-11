@@ -39,16 +39,21 @@ section {
 }
 
 .boxFloat {
-  border: 1px;
+  border-radius: 50%;
   background-color: rgb(255, 232, 197);
-  width: 100px;
+  width: 200px;
   height: 200px;
   position: sticky;
   top: 30px;
   left: 30px;
   margin-right: 0;
   margin-left: auto;
+  padding: 5%;
 }
+.textSpan {
+  padding-top: 100px;
+}
+
 .boxesDiv {
   display: flex;
   justify-content: space-evenly;
