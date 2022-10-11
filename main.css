@@ -60,8 +60,7 @@ section {
 
 #c1 {
   border: 5px solid rgb(3, 3, 149);
-  padding: 0.5em;
-  padding-right: 2%;
+  margin: 2px;
   width: 20vw;
   height: 20vh;
 }
@@ -70,6 +69,41 @@ section {
   background-color: rgb(237, 194, 194);
   padding: 40px;
   margin: 40px;
-  width: 300px;
-  height: 150px;
+  width: 20vw;
+  height: 20vh;
+}
+#c3 {
+  border: 15px solid rgb(225, 115, 13);
+  background-color: rgb(237, 194, 194);
+  padding: 10px;
+  margin: -40px;
+  width: 20vw;
+  height: 20vh;
+}
+
+#c4 {
+  border-radius: 2em;
+  background: linear-gradient(
+    105deg,
+    rgba(10, 222, 241, 0.2) 39%,
+    rgb(171, 222, 233) 96%
+  );
+  padding: 10px 20px 10px 20px;
+  margin-top: 5px -40px 2px 5px;
+  width: 20vw;
+  height: 20vh;
+}
+
+#c5 {
+  border: 5px solid;
+  border-radius: 1em;
+  background: linear-gradient(
+    105deg,
+    rgba(139, 19, 175, 0.2) 39%,
+    rgb(119, 105, 243) 96%
+  );
+  padding: 10px 20px 10px 20px;
+  margin-top: 5px -40px 2px 5px;
+  width: 20vw;
+  height: 20vh;
 }
